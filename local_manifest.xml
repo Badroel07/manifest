@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Badroel07"
-          fetch="https://github.com/Badroel07" />
+          fetch="https://github.com/Badroel07"/>
 
   <remote name="Chuck439"
-          fetch="https://github.com/Chuck439" />
+          fetch="https://github.com/Chuck439"/>
 
   <remote name="Legion"
-          fetch="https://github.com/Project-LegionOS" />
+          fetch="https://github.com/Project-LegionOS"/>
 
  <!-- Replacements -->
   <remove-project name="android_hardware_qcom_display"/>
@@ -22,6 +22,6 @@
    <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
 
  <!-- Vendor Trees -->
-   <project path="vendor/xiaomi/olivewood" name="_vendor_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
+   <project path="vendor/xiaomi/olivewood" name="vendor_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
 
 </manifest>
