@@ -26,10 +26,6 @@
   
   <project path="vendor/xiaomi/olivewood"         name="_vendor_xiaomi_olivewood"      remote="Badroel07"   revision="dot11"/>
 
- <!-- QTI vibrator AIDL -->
-  <remove-project name="android_vendor_qcom_opensource_vibrator" />
-  <project path="vendor/qcom/opensource/vibrator"  name="android_vendor_qcom_opensource_vibrator"  remote="Chuck439"  revision="lineage-18.1" />
-
  <!-- Custom android_build -->
    <remove-project name="android_build" />
    <remove-project name="android_build_soong" />
