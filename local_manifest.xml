@@ -3,6 +3,9 @@
   <remote  name="Badroel07"
            fetch="https://github.com/Badroel07" />
 
+  <remote  name="Chuck439"
+           fetch="https://github.com/Chuck439" />
+
   <remote  name="Legion"
            fetch="https://github.com/Project-LegionOS" />
 
