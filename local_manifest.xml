@@ -3,9 +3,6 @@
   <remote name="Badroel07"
           fetch="https://github.com/Badroel07"/>
 
-  <remote name="Chuck439"
-          fetch="https://github.com/Chuck439"/>
-
   <remote name="LenEg"
           fetch="https://github.com/LineageOS"/>
 
@@ -20,9 +17,7 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="LenEg" revision="lineage-18.1-caf-msm8996"/>
 
  <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="Badroel07" revision="dot11" clone-depth="1"/>
-  <project path="prebuilts/clang/host/linux-x86/clang-silont" name="silont-clang" remote="Chuck439" revision="master" clone-depth="1" />
-  <!-- Just use whatever you want for now, but remember to add the legacy omx patch! -->
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
 
  <!-- Device Trees -->
    <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
