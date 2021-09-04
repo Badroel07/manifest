@@ -6,6 +6,10 @@
   <remote name="LenEg"
           fetch="https://github.com/LineageOS"/>
 
+  <remote name="SiLonT"
+          fetch="https://github.com/silont-project"/>
+       
+
  <!-- Replacements -->
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Badroel07" revision="lineage-18.1-caf-msm8996"/>
@@ -18,6 +22,7 @@
 
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-silont" name="silont-clang" remote="SiLonT" revision="master" clone-depth="1"/>
 
  <!-- Device Trees -->
    <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
