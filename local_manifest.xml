@@ -6,8 +6,8 @@
   <remote name="LenEg"
           fetch="https://github.com/LineageOS"/>
 
-  <remote name="Nezuko"
-          fetch="https://github.com/ProjectRadiant"/>
+  <remote name="Legion"
+          fetch="https://github.com/Project-LegionOS"/>
 
  <!-- Replacements -->
   <remove-project name="android_hardware_qcom_display"/>
@@ -31,7 +31,7 @@
 <!-- Custom android_build -->
    <remove-project name="android_build" />
    <remove-project name="android_build_soong" />
-   <project path="build/make" name="build" remote="Nezuko" revision="eleven"  groups="pdk" >
+   <project path="build/make" name="build_make" remote="Legion" revision="11"  groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -40,7 +40,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="Nezuko" revision="eleven" groups="pdk,tradefed" >
+  <project path="build/soong" name="build_soong" remote="Legion" revision="11" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 
