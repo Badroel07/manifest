@@ -6,12 +6,6 @@
   <remote name="LenEg"
           fetch="https://github.com/LineageOS"/>
 
-  <remote  name="Chuck439"
-           fetch="https://github.com/Chuck439" />
-
-  <remote  name="sepsip"
-           fetch="https://github.com/ShapeShiftOS" />
-
  <!-- Replacements -->
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Badroel07" revision="lineage-18.1-caf-msm8996"/>
