@@ -22,7 +22,6 @@
 
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
-  <project path="prebuilts/clang/host/linux-x86/clang-silont" name="silont-clang" remote="SiLonT" revision="master" clone-depth="1"/>
 
  <!-- Device Trees -->
    <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="Badroel07" revision="dot11"/>
